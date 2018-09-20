@@ -53,5 +53,5 @@ hdfs dfs -cat /Sum/*
 6.`</Sum>`:  output directory for Sum job
 
 
-This project is under supervision by jiuzhang.
+Instructed by jiuzhang
 
