@@ -2,7 +2,7 @@
 
 A movie recommender based on user's watching history implemented in Java, Hadoop with collaborative filtering algorithms.
 
-## How to use:
+## Environment
 
 First, this project used docker to construct hadoop cluster. Make sure you have installed docker. Then execute following lines in terminal(Mac and Linux):
 
@@ -23,6 +23,8 @@ $ sudo ./start-container.sh
 $ ./start-hadoop.sh
 ```
 
+
+## Usage
 Enter src directory and compile java files. Generate output to corresponding directory:
 
 ```
