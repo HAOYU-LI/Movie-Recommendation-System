@@ -52,6 +52,9 @@ hdfs dfs -cat /Sum/*
 
 6.`</Sum>`:  output directory for Sum job
 
+## Source of data
+
+Netflix Prize: https://www.netflixprize.com/
 
 Instructed by jiuzhang
 
