@@ -1,6 +1,6 @@
-## User input
+## User watching history
 
-Sample user input is given for demo purpose. The format for user input is:
+User watching histories are given in this folder. The format for data is:
 
 ```
 userID,movieID,Rating\n
