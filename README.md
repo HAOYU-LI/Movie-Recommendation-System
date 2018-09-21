@@ -28,15 +28,15 @@ $ ./start-hadoop.sh
 Enter src directory and compile java files. Generate output to corresponding directory:
 
 ```
-cd src/main/java/
+$ cd src/main/java/
 
-hadoop com.sun.tools.javac.Main *.java
+$ hadoop com.sun.tools.javac.Main *.java
 
-jar cf recommender.jar *.class
+$ jar cf recommender.jar *.class
 
-hadoop jar recommender.jar Driver /input /dataDividedByUser /coOccurrenceMatrix /Normalize /Multiplication /Sum
+$ hadoop jar recommender.jar Driver /input /dataDividedByUser /coOccurrenceMatrix /Normalize /Multiplication /Sum
 
-hdfs dfs -cat /Sum/*
+$ hdfs dfs -cat /Sum/*
 
 ```
 
