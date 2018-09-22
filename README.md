@@ -56,5 +56,5 @@ $ hdfs dfs -cat /Sum/*
 
 Netflix Prize: https://www.netflixprize.com/
 
-With help from jiuzhang
+Thanks to jiuzhang
 
